@@ -1,0 +1,7 @@
+<!--
+ - Created by George.Nguyen on 12/12/2017.
+ -->
+
+<apex:page id="Test1" controller="Test1">
+    <apex:outputLabel value="testString" />
+</apex:page>

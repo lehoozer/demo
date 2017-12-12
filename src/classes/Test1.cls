@@ -1,11 +1,6 @@
 public class Test1 {
+    public string testString { get; set; }
     public Test1() {
-        system.debug('testing');
-        // this is a test
-        // added by someone else
-        // mine
-        // another one added by someone else
-        
-        // yet another one
+        teststring = 'helllllo';
     }
 }

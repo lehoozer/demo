@@ -1,3 +1,3 @@
 import java.lang.Object
 
-println('ehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh')
+println('so far so good')

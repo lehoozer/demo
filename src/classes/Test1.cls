@@ -3,5 +3,7 @@ public class Test1 {
     public Test1() {
         teststring = 'helllllo';
         system.debug('something to say');
+        // this should cause conflict
+        // and this too
     }
 }

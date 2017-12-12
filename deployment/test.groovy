@@ -1,3 +1,5 @@
 import java.lang.Object
 
-println('so far so good -----------------------------------')
+println('================================== START ==================================')
+def defaultPathBase = new File( "." ).getCanonicalPath()
+println "Current dir:" + defaultPathBase

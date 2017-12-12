@@ -14,7 +14,7 @@ println "Current dir:" + defaultPathBase
 File file = new File(defaultPathBase, configFile)
 println "The file ${file.absolutePath} has ${file.length()} bytes"
 
-def config = new JsonSlurperClassic().parse(new File(configFile))
+def config = new JsonSlurperClassic().parse(new File(defaultPathBase, configFile))
 
 def xmlParser = new XmlParser(false, true, true)
 def packageXml = xmlParser.parseText(packageTemplate)

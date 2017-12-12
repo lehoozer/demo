@@ -1,5 +1,6 @@
 import groovy.json.JsonSlurperClassic
 
+println "============================== starting ==============================="
 // #### MAIN ####
 def (configFile, srcDirName, packageFileName) = parseArgs(args)
 def packageTemplate = '''

@@ -8,6 +8,12 @@ def packageTemplate = '''
 </Package>
 '''
 
+println "loading config file at: " + configFile
+def defaultPathBase = new File( "." ).getCanonicalPath()
+println "Current dir:" + defaultPathBase
+File file = new File(defaultPathBase, configFile)
+println "The file ${file.absolutePath} has ${file.length()} bytes"
+
 def config = new JsonSlurperClassic().parse(new File(configFile))
 
 def xmlParser = new XmlParser(false, true, true)
@@ -59,7 +65,7 @@ def addMembersExcludePattern(def parser, def node, def dir, def excludeExtension
 			if (!file.name.endsWith(excludeExtension)) {
 				node.append membersNode(parser, subDir.name + "/" + file.name)
 			}
-		}	
+		}
 	}
 }
 
@@ -69,7 +75,7 @@ def addMembers(def parser, def node, def dir, def extension) {
 
 		subDir.eachFileMatch(~/.*${extension}/) { file ->
 			node.append membersNode(parser, subDir.name + "/" + (file.name - "$extension"))
-		}	
+		}
 	}
 	dir.eachFileMatch(~/.*${extension}/) { file ->
 		node.append membersNode(parser, file.name - "$extension")
@@ -113,8 +119,8 @@ def xmlToFile(def xml, def fileName) {
 	def sw = new StringWriter()
 	def printer = new XmlNodePrinter(new PrintWriter(sw), '    ')
 	printer.with {
-	  preserveWhitespace = true
-	  expandEmptyElements = true
+		preserveWhitespace = true
+		expandEmptyElements = true
 	}
 	printer.print(xml)
 

@@ -5,5 +5,6 @@ public class Test1 {
         system.debug('something to say');
         // this should cause conflict
         // and this too
+        // this is my changeeeeee....
     }
 }

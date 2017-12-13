@@ -1,1 +1,2 @@
 start of feature1
+conflict 1

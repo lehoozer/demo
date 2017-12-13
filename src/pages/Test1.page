@@ -4,5 +4,5 @@
 
 <apex:page id="Test1" controller="Test1">
     <apex:outputLabel value="testString" />
-    <div>start of rebase</div>
+    <div>test</div>
 </apex:page>

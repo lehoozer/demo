@@ -1,9 +1,1 @@
-other changes
-added now...
-conflict here
-hahahahaha conflict baby
-my changes
-conflict here
-test changes
-another change
-more changes here
+start of feature1

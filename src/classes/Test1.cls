@@ -5,5 +5,6 @@ public class Test1 {
         system.debug('here we go with external changes...');
         // updated by external 3
         // updated by external 4
+        // updated by external 5
     }
 }

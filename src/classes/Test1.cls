@@ -5,6 +5,7 @@ public class Test1 {
         // start of rebase
         // rebase 1
         // rebase 2
+        // rebase 3
         // modified by others 2
         // modified by others 3
         // test 4

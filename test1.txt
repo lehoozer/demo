@@ -8,3 +8,5 @@ test 1
 test 2
 test 3
 got rebased 1
+
+feature 1

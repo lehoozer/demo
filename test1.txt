@@ -1,4 +1,7 @@
 start of rebase
+rebase 1
+rebase 2
+rebase 3
 start of feature1
 test 1
 test 2

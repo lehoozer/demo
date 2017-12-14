@@ -5,7 +5,6 @@
 <apex:page id="Test1" controller="Test1">
     <apex:outputLabel value="testString" />
     <div>test</div>
-
-
     <div>test 2</div>
+    <div>updated by external 7</div>
 </apex:page>

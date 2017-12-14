@@ -11,5 +11,7 @@ public class Test1 {
         // modified by others 3
         // test 4
         // got rebased 1
+
+        // feature 1
     }
 }

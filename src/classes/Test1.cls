@@ -3,5 +3,6 @@ public class Test1 {
     public Test1() {
         teststring = 'helllllo';
         system.debug('here we go with external changes...');
+        // updated by external 3
     }
 }

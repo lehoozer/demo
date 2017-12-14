@@ -6,5 +6,6 @@ public class Test1 {
         // updated by external 3
         // updated by external 4
         // updated by external 5
+        // updated by external 6
     }
 }

@@ -8,4 +8,5 @@
     <div>test 2</div>
     <div>updated by external 7</div>
     <div>updated by external 8</div>
+    <div>updated by external 10</div>
 </apex:page>
